@@ -3,6 +3,9 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
+    "paths": {
+      "@capacitor/*": ["__mocks__/@capacitor/*"]
+    },
     "types": [
       "jasmine"
     ]
