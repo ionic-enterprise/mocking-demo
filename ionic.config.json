@@ -1,0 +1,7 @@
+{
+  "name": "you-mock-me",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
