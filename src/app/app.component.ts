@@ -10,8 +10,6 @@ import * as LiveUpdates from '@capacitor/live-updates';
   imports: [IonApp, IonRouterOutlet],
 })
 export class AppComponent implements OnInit {
-  constructor() {}
-
   async ngOnInit(): Promise<void> {
     await SplashScreen.hide();
     // NOTE: DO NOT use Live Updates like this. This is just sample code to show the
